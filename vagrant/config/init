@@ -1,0 +1,2 @@
+export KUBEADM_TOKEN=ld6q71.orhdl5euji0mqq2z
+export KUBE_MASTER_IP=10.20.0.2
