@@ -26,11 +26,11 @@
 [etcd] Wrote Static Pod manifest for a local etcd instance to "/etc/kubernetes/manifests/etcd.yaml"
 [init] Waiting for the kubelet to boot up the control plane as Static Pods from directory "/etc/kubernetes/manifests".
 [init] This might take a minute or longer if the control plane images have to be pulled.
-[apiclient] All control plane components are healthy after 65.504294 seconds
+[apiclient] All control plane components are healthy after 74.003753 seconds
 [uploadconfig] Storing the configuration used in ConfigMap "kubeadm-config" in the "kube-system" Namespace
 [markmaster] Will mark node k8s-master as master by adding a label and a taint
 [markmaster] Master k8s-master tainted and labelled with key/value: node-role.kubernetes.io/master=""
-[bootstraptoken] Using token: ld6q71.orhdl5euji0mqq2z
+[bootstraptoken] Using token: s7l6yo.irl4aig2tn4ve5k2
 [bootstraptoken] Configured RBAC rules to allow Node Bootstrap tokens to post CSRs in order for nodes to get long term certificate credentials
 [bootstraptoken] Configured RBAC rules to allow the csrapprover controller automatically approve CSRs from a Node Bootstrap Token
 [bootstraptoken] Configured RBAC rules to allow certificate rotation for all node client certificates in the cluster
@@ -53,4 +53,4 @@ Run "kubectl apply -f [podnetwork].yaml" with one of the options listed at:
 You can now join any number of machines by running the following on each node
 as root:
 
-  kubeadm join 10.20.0.2:6443 --token ld6q71.orhdl5euji0mqq2z --discovery-token-ca-cert-hash sha256:51d8918a148dac09d6c79189a6a5800c09ed4f87848ce830c86c0a3d00839473
+  kubeadm join 10.20.0.2:6443 --token s7l6yo.irl4aig2tn4ve5k2 --discovery-token-ca-cert-hash sha256:4165d41464759201f559b94402ae538ea63689d8518779f099e7f561ed7992a9
